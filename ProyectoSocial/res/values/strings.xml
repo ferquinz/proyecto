@@ -1,0 +1,18 @@
+<resources>
+
+    <string name="app_name">ProyectoSocial</string>
+    <string name="entrar">Entrar</string>
+    <string name="pali">Pali</string>
+	<string name="nombreapp">Proyecto</string>
+	<string name="pass">Contraseña</string>
+	<string name="user">Usuario</string>
+	<string name="login">Login</string>
+	<string name="register">Registrarse</string>
+	<string name="telefono">Teléfono</string>
+	<string name="nick">Nick</string>
+	<string name="email">Email</string>
+	<string name="repeatpass">Repita la Contraseña</string>
+	<string name="siguiente">Siguiente</string>
+	<string name="r1">Registro 1 de 3</string>
+	<string name="adjuntar">Añadir</string>
+</resources>

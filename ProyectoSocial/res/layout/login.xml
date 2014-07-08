@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@drawable/pali" >
+
+    <EditText
+        android:id="@+id/passText"
+        android:layout_width="150dip"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/pass"
+        android:layout_alignLeft="@+id/userText"
+        android:ems="10"
+        android:inputType="textPassword"/>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="42dp"
+        android:ems="10"
+        android:gravity="center"
+        android:text="@string/nombreapp"
+        android:textColor="#000000"
+        android:textSize="60sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/pass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/userText"
+        android:layout_marginLeft="16dp"
+        android:text="@string/pass"
+        android:textColor="@android:color/black"
+        android:textSize="10pt" />
+
+    <TextView
+        android:id="@+id/user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/pass"
+        android:layout_alignTop="@+id/userText"
+        android:text="@string/user"
+        android:textColor="@android:color/black"
+        android:textSize="10pt" />
+
+    <EditText
+        android:id="@+id/userText"
+        android:layout_width="150dip"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/title"
+        android:layout_marginRight="14dp"
+        android:layout_marginTop="25dp"
+        android:ems="10"
+        android:inputType="textPersonName" >
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/login"
+        style="@style/button_login"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/pass"
+        android:layout_below="@+id/pass"
+        android:layout_marginTop="42dp"
+        android:background="@drawable/login_button"
+        android:text="@string/login" />
+
+    <Button
+        android:id="@+id/register"
+        style="@style/button_login"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/login"
+        android:layout_alignBottom="@+id/login"
+        android:layout_alignRight="@+id/passText"
+        android:background="@drawable/login_button"
+        android:text="@string/register" />
+
+</RelativeLayout>
